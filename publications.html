@@ -111,24 +111,6 @@
                 }, 100);
             }
         });
-
-        // Handle hash navigation
-        function handleHashNavigation() {
-            if (window.location.hash) {
-                const target = document.querySelector(window.location.hash);
-                if (target) {
-                    setTimeout(() => {
-                        target.scrollIntoView({ behavior: 'smooth', block: 'center' });
-                    }, 100);
-                }
-            }
-        }
-
-        // Run on page load
-        window.addEventListener('load', handleHashNavigation);
-
-        // Run when hash changes
-        window.addEventListener('hashchange', handleHashNavigation);
     </script>
 </body>
 </html>
