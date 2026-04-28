@@ -520,6 +520,24 @@ body {
     margin-top: auto;
 }
 
+/* Shared link style */
+.content a {
+    color: var(--color-accent-dark);
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.2s ease;
+}
+
+.content a:hover {
+    color: var(--color-accent);
+    text-decoration: underline;
+}
+
+.content a:visited {
+    color: var(--color-accent-dark);
+}
+
+
 /* Responsive Design */
 @media (max-width: 768px) {
     .nav-container {
