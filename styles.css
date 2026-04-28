@@ -520,20 +520,19 @@ body {
     margin-top: auto;
 }
 
-/* Shared link style */
-.content a {
+a {
     color: var(--color-accent-dark);
     text-decoration: none;
     font-weight: 500;
     transition: color 0.2s ease;
 }
 
-.content a:hover {
+a:hover {
     color: var(--color-accent);
     text-decoration: underline;
 }
 
-.content a:visited {
+a:visited {
     color: var(--color-accent-dark);
 }
 
